@@ -9,10 +9,17 @@ function happyHolidaysTo(name) {
 
 function happyHolidayTo(holiday, name) {
   var holiday;
-  //"Independence Day"
   var name;
-  //"you"
-  if() {
+
+  if(holiday === "Independence Day") {
+    holiday = "Independence Day"
+    name = "you"
+    return `Happy ${holiday}, ${name}!`
+  }
+
+  if(holiday === "Happy New Year") {
+    holiday = "Happy New Year"
+    name = "everyone!"
     return `Happy ${holiday}, ${name}!`
   }
 
