@@ -17,8 +17,8 @@ function happyHolidayTo(holiday, name) {
     return `Happy ${holiday}, ${name}!`
   }
 
-  if(holiday === "Happy New Year") {
-    holiday = "Happy New Year"
+  if(holiday === "New Year") {
+    holiday = "New Year"
     name = "everyone!"
     return `Happy ${holiday}, ${name}!`
   }
